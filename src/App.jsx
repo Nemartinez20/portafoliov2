@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <Header />
+      <div className="pulser"></div>
 
       <main className="contenedor-principal">
         <Sobremi />
@@ -23,6 +24,14 @@ function App() {
           <h2 className="contenedor-principal">Tecnologias</h2>
           <Habilidades />
         </div>
+
+        <section>
+          <h2 className="contenedor-principal">Contacto</h2>
+        </section>
+
+        <footer>
+          <p>Nestor Arley</p>
+        </footer>
       </main>
     </>
   );

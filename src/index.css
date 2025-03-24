@@ -3,9 +3,10 @@
 @tailwind utilities; */
 
 :root{
-  --background-color-body:black;
+  --background-color-body:#1b263b;
   --background-header1:#67676718;
-  --background-header:#676767c5;
+  --background-header:trasnparent;
+  --background-header2:#415a77;
   --color-texto: white;
   --color-borde: white;
   --background-iconos: #FFFFFF;
@@ -33,6 +34,11 @@
   }
 h2{
   color: var(--color-texto);
+  
+}
+p{
+  color: var(--color-texto);
+
 }
 /*=========================================================================
                              header
@@ -51,6 +57,7 @@ h2{
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
 
 /* .texto{
   filter: drop-shadow(10px 7px 20px orange);
@@ -77,6 +84,7 @@ h2{
     top: 0;
     left: 0;
     z-index: 100;
+    box-shadow: 0 0 10px #09f;
    
 
   }
@@ -152,6 +160,7 @@ h2{
   }
   .header__menu ul{
     display: flex;
+    gap:20px;
     flex-direction: column;
     padding-top: 50px;
 
@@ -163,6 +172,7 @@ h2{
     /* border: 1px solid red; */
     padding: 8px 12px;
     color: var(--color-texto);
+    transition: .2s ease-in-out;
 
   }
 
@@ -170,6 +180,12 @@ h2{
 
   a{
     text-decoration: none;
+  }
+
+  .header__menu a:hover{
+    scale: 1.1;
+    color: #09f;
+    border-bottom: 1px solid #09f;
   }
  
 .close{
@@ -279,6 +295,8 @@ h2{
   height: 200px;
   border-radius: 5px;
   transform: rotate(3deg);
+  box-shadow: 0 0 15px #09f;
+
 
 
 }
@@ -307,6 +325,8 @@ h2{
     max-width: 330px;
     border-radius: 5px;
     padding: 0px ;
+    box-shadow: 1px 1px 0px rgb(1, 114, 200);
+
    
    }
    img{
@@ -475,6 +495,13 @@ h2{
       padding-top: 0px;
   
     }
+
+    .header__menu a:hover{
+      scale: 1.1;
+      color: #09f;
+      border-bottom: 1px solid #09f;
+    }
+    
     .header__barra{
       display: none;
     }
