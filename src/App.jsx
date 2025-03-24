@@ -1,3 +1,4 @@
+import Habilidades from "./components/Habilidades";
 import { Header } from "./components/Header";
 import { Proyectos } from "./components/Proyectos";
 import { Sobremi } from "./components/Sobremi";
@@ -16,6 +17,11 @@ function App() {
           <Proyectos />
           <Proyectos />
           <Proyectos />
+        </div>
+
+        <div>
+          <h2 className="contenedor-principal">Tecnologias</h2>
+          <Habilidades />
         </div>
       </main>
     </>

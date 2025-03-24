@@ -2,7 +2,10 @@ export function Proyectos() {
   return (
     <>
       <article className="card">
-        <img src="/img/img1.png" alt="img-mia" />
+        <div className="padre">
+          <img src="/img/img1.png" alt="img-mia" />
+          <div className="pollo">unossffffffffs</div>
+        </div>
         <div className="content-info">
           <h2 className="titulo-proyecto">Proyecto uno</h2>
 
