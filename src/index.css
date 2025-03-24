@@ -330,7 +330,7 @@ h2{
     opacity: 0;
     padding: 20px;
     background: rgb(141,136,227);
-background: linear-gradient(90deg, rgba(141,136,227,0.2521244493024103) 0%, rgba(219,161,214,0.6228141044748241) 100%);
+    background: linear-gradient(90deg, rgba(141,136,227,0.2521244493024103) 0%, rgba(219,161,214,0.6228141044748241) 100%);
         
    }
    .pollo:hover{
@@ -414,17 +414,43 @@ background: linear-gradient(90deg, rgba(141,136,227,0.2521244493024103) 0%, rgba
     border: 1px solid rgb(214, 210, 210);
     height: 100px;
     border-radius: 5px;
+    transition: transform ease-in-out .2s;
+    /* position: relative; */
+   }
+   .cad_habilidades:hover{
+    transform: scale(1.2);
    }
     .img_habilidades{
       height: 44px;
       width: 44px;
       margin-bottom: 10PX;
     }
-    P{
+
+    .titulo_Habilidaes{
       color: var(--color-texto);
     }
+    /* .titulo_Habilidaes{
+      color: var(--color-texto);
+      position: absolute;
+      color: white;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: end;
+      opacity: 0;
+      padding: 10px;
+      background: rgb(141,136,227);
+      background: linear-gradient(90deg, rgba(141,136,227,0.2521244493024103) 0%, rgba(220, 36, 39, 0.623) 100%);
 
+    
+    }
+    .titulo_Habilidaes:hover{
+      opacity: 100;
+      transition: opacity;
+    } */
 
+ 
 
    @media (min-width:700px){
     
