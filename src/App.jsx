@@ -1,3 +1,4 @@
+import { Contacto } from "./components/Contacto";
 import Habilidades from "./components/Habilidades";
 import { Header } from "./components/Header";
 import { Proyectos } from "./components/Proyectos";
@@ -18,15 +19,19 @@ function App() {
           <Proyectos />
           <Proyectos />
           <Proyectos />
+          <Proyectos />
+          <Proyectos />
         </div>
 
         <div>
-          <h2 className="contenedor-principal">Tecnologias</h2>
+          <h2 className="titulo-seccion">Tecnologias</h2>
           <Habilidades />
         </div>
 
         <section>
-          <h2 className="contenedor-principal">Contacto</h2>
+          <h2 className="titulo-seccion">Contacto</h2>
+
+          <Contacto />
         </section>
 
         <footer>
